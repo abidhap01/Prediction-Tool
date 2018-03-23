@@ -1,0 +1,142 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -U -M 2
+Relation:     FinalData2-weka.filters.unsupervised.attribute.Discretize-F-B6-M-1.0-Rlast-weka.filters.unsupervised.attribute.Discretize-unset-class-temporarily-F-B6-M-1.0-R9-weka.filters.unsupervised.attribute.Discretize-unset-class-temporarily-F-B5-M-1.0-R9
+Instances:    142
+Attributes:   9
+              Region
+              IncomeGroup
+              Diesel_Consumption
+              Gasoline_Consumption
+              Road_Density
+              Cars_Per_K_People
+              Vehicles_Per_K_People
+              Vehicles_Per_KM
+              PM2.5_RANGE
+           
+          
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+Region = East Asia & Pacific
+|   Gasoline_Consumption <= 427.7
+|   |   IncomeGroup = High income: nonOECD: '(18.43-21.755]Moderate' (2.0)
+|   |   IncomeGroup = High income: OECD: '(21.755-inf)moderate-potential damage' (2.0)
+|   |   IncomeGroup = Low income: '(18.43-21.755]Moderate' (2.0/1.0)
+|   |   IncomeGroup = Lower middle income: '(11.98-15.12]Moderate' (2.0)
+|   |   IncomeGroup = Upper middle income
+|   |   |   Diesel_Consumption <= 114.38: '(21.755-inf)moderate-potential damage' (2.0)
+|   |   |   Diesel_Consumption > 114.38: '(11.98-15.12]Moderate' (2.0)
+|   Gasoline_Consumption > 427.7: '(-inf-5.845]verygood' (5.0)
+Region = Europe & Central Asia
+|   Vehicles_Per_KM <= 35.96
+|   |   IncomeGroup = High income: nonOECD: '(5.845-11.98]Good' (5.0/1.0)
+|   |   IncomeGroup = High income: OECD
+|   |   |   Road_Density <= 56.21: '(-inf-5.845]verygood' (5.0)
+|   |   |   Road_Density > 56.21
+|   |   |   |   Diesel_Consumption <= 326.59: '(-inf-5.845]verygood' (3.0/2.0)
+|   |   |   |   Diesel_Consumption > 326.59
+|   |   |   |   |   Road_Density <= 180.48: '(5.845-11.98]Good' (7.0)
+|   |   |   |   |   Road_Density > 180.48: '(15.12-18.43]Moderate' (3.0/1.0)
+|   |   IncomeGroup = Low income: '(5.845-11.98]Good' (0.0)
+|   |   IncomeGroup = Lower middle income: '(15.12-18.43]Moderate' (1.0)
+|   |   IncomeGroup = Upper middle income
+|   |   |   Road_Density <= 44.33
+|   |   |   |   Vehicles_Per_K_People <= 219.26: '(11.98-15.12]Moderate' (4.0/1.0)
+|   |   |   |   Vehicles_Per_K_People > 219.26: '(5.845-11.98]Good' (2.0)
+|   |   |   Road_Density > 44.33
+|   |   |   |   Vehicles_Per_KM <= 24.12: '(18.43-21.755]Moderate' (5.0/1.0)
+|   |   |   |   Vehicles_Per_KM > 24.12: '(15.12-18.43]Moderate' (3.0)
+|   Vehicles_Per_KM > 35.96
+|   |   Road_Density <= 214.51
+|   |   |   IncomeGroup = High income: nonOECD
+|   |   |   |   Diesel_Consumption <= 269.78: '(11.98-15.12]Moderate' (2.0/1.0)
+|   |   |   |   Diesel_Consumption > 269.78: '(18.43-21.755]Moderate' (2.0)
+|   |   |   IncomeGroup = High income: OECD
+|   |   |   |   Cars_Per_K_People <= 529.33
+|   |   |   |   |   Diesel_Consumption <= 341.82
+|   |   |   |   |   |   Diesel_Consumption <= 222.09: '(18.43-21.755]Moderate' (2.0)
+|   |   |   |   |   |   Diesel_Consumption > 222.09
+|   |   |   |   |   |   |   Road_Density <= 173.89
+|   |   |   |   |   |   |   |   Diesel_Consumption <= 246.57: '(15.12-18.43]Moderate' (3.0)
+|   |   |   |   |   |   |   |   Diesel_Consumption > 246.57: '(11.98-15.12]Moderate' (3.0/1.0)
+|   |   |   |   |   |   |   Road_Density > 173.89: '(15.12-18.43]Moderate' (2.0/1.0)
+|   |   |   |   |   Diesel_Consumption > 341.82: '(11.98-15.12]Moderate' (8.0/1.0)
+|   |   |   |   Cars_Per_K_People > 529.33: '(-inf-5.845]verygood' (2.0/1.0)
+|   |   |   IncomeGroup = Low income: '(11.98-15.12]Moderate' (0.0)
+|   |   |   IncomeGroup = Lower middle income: '(11.98-15.12]Moderate' (4.0/1.0)
+|   |   |   IncomeGroup = Upper middle income
+|   |   |   |   Gasoline_Consumption <= 118.83: '(15.12-18.43]Moderate' (6.0/2.0)
+|   |   |   |   Gasoline_Consumption > 118.83: '(11.98-15.12]Moderate' (2.0/1.0)
+|   |   Road_Density > 214.51: '(18.43-21.755]Moderate' (4.0/1.0)
+Region = Latin America & Caribbean
+|   Gasoline_Consumption <= 223.27
+|   |   IncomeGroup = High income: nonOECD: '(5.845-11.98]Good' (0.0)
+|   |   IncomeGroup = High income: OECD: '(5.845-11.98]Good' (2.0)
+|   |   IncomeGroup = Low income: '(5.845-11.98]Good' (0.0)
+|   |   IncomeGroup = Lower middle income
+|   |   |   Road_Density <= 16.03: '(5.845-11.98]Good' (3.0)
+|   |   |   Road_Density > 16.03: '(-inf-5.845]verygood' (3.0)
+|   |   IncomeGroup = Upper middle income
+|   |   |   Road_Density <= 46.87
+|   |   |   |   Gasoline_Consumption <= 55.97: '(5.845-11.98]Good' (2.0)
+|   |   |   |   Gasoline_Consumption > 55.97: '(-inf-5.845]verygood' (4.0)
+|   |   |   Road_Density > 46.87: '(5.845-11.98]Good' (3.0)
+|   Gasoline_Consumption > 223.27: '(15.12-18.43]Moderate' (2.0)
+Region = Middle East & North Africa
+|   Gasoline_Consumption <= 51.98: '(18.43-21.755]Moderate' (4.0/1.0)
+|   Gasoline_Consumption > 51.98: '(21.755-inf)moderate-potential damage' (13.0)
+Region = North America: '(11.98-15.12]Moderate' (2.0)
+Region = South Asia: '(21.755-inf)moderate-potential damage' (4.0/1.0)
+Region = Sub-Saharan Africa
+|   IncomeGroup = High income: nonOECD: '(-inf-5.845]verygood' (0.0)
+|   IncomeGroup = High income: OECD: '(-inf-5.845]verygood' (0.0)
+|   IncomeGroup = Low income: '(-inf-5.845]verygood' (2.0)
+|   IncomeGroup = Lower middle income: '(15.12-18.43]Moderate' (1.0)
+|   IncomeGroup = Upper middle income: '(-inf-5.845]verygood' (2.0)
+Region = West Bank and Gaza: '(-inf-5.845]verygood' (0.0)
+
+Number of Leaves  : 	50
+
+Size of the tree : 	78
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          71               50      %
+Incorrectly Classified Instances        71               50      %
+Kappa statistic                          0.3998
+Mean absolute error                      0.1736
+Root mean squared error                  0.3734
+Relative absolute error                 62.4628 %
+Root relative squared error            100.0949 %
+Total Number of Instances              142     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.119      0.533     0.667     0.593      0.768    '(-inf-5.845]verygood'
+                 0.458     0.085      0.524     0.458     0.489      0.746    '(5.845-11.98]Good'
+                 0.542     0.119      0.481     0.542     0.51       0.763    '(11.98-15.12]Moderate'
+                 0.261     0.118      0.3       0.261     0.279      0.615    '(15.12-18.43]Moderate'
+                 0.292     0.119      0.333     0.292     0.311      0.678    '(18.43-21.755]Moderate'
+                 0.783     0.042      0.783     0.783     0.783      0.908    '(21.755-inf)moderate-potential damage'
+Weighted Avg.    0.5       0.1        0.492     0.5       0.493      0.746
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+ 16  6  1  0  1  0 |  a = '(-inf-5.845]verygood'
+  8 11  3  1  0  1 |  b = '(5.845-11.98]Good'
+  2  0 13  5  3  1 |  c = '(11.98-15.12]Moderate'
+  4  3  3  6  7  0 |  d = '(15.12-18.43]Moderate'
+  0  1  5  8  7  3 |  e = '(18.43-21.755]Moderate'
+  0  0  2  0  3 18 |  f = '(21.755-inf)moderate-potential damage'
+

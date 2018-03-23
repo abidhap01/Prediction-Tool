@@ -1,0 +1,155 @@
+@relation FinalData2
+@attribute Region {'East Asia & Pacific','Europe & Central Asia','Latin America & Caribbean','Middle East & North Africa','North America','South Asia','Sub-Saharan Africa','West Bank and Gaza'}
+@attribute IncomeGroup {'High income: nonOECD','High income: OECD','Low income','Lower middle income','Upper middle income'}  
+@attribute Diesel_Consumption       numeric
+@attribute Gasoline_Consumption     numeric
+@attribute Road_Density             numeric
+@attribute Cars_Per_K_People        numeric
+@attribute Vehicles_Per_K_People    numeric
+@attribute Vehicles_Per_KM          numeric
+@attribute PM2.5_RANGE              numeric
+           
+
+@data
+'East Asia & Pacific','High income: OECD',467.50,592.77,10.66,556.04,697.97,18.65,5.68
+'Europe & Central Asia','High income: OECD',625.64,204.77,131.38,529.33,577.78,43.98,13.22
+'Europe & Central Asia','High income: OECD',683.77,252.55,127.73,505.20,549.85,42.23,15.01
+'Europe & Central Asia','Upper middle income',63.63,68.63,21.70,57.13,71.62,31.97,18.74
+'Europe & Central Asia','Upper middle income',52.90,112.43,21.91,90.08,107.07,51.08,17.28
+'Europe & Central Asia','High income: OECD',661.24,110.89,504.46,489.38,559.41,39.57,18.80
+'Europe & Central Asia','High income: OECD',609.24,168.15,495.81,469.16,533.65,36.94,22.08
+'Europe & Central Asia','Upper middle income',173.90,70.28,36.00,327.92,375.86,72.31,19.53
+'Europe & Central Asia','Upper middle income',192.81,78.56,17.52,345.40,392.83,152.12,16.81
+'Middle East & North Africa','High income: nonOECD',357.00,546.88,501.08,365.53,428.29,83.71,48.01
+'Middle East & North Africa','High income: nonOECD',284.45,497.79,542.36,296.79,351.85,107.71,49.33
+'Europe & Central Asia','Upper middle income',214.77,67.86,44.33,192.75,213.99,35.44,12.41
+'Europe & Central Asia','Upper middle income',122.42,68.04,42.65,100.24,113.58,19.65,13.42
+'Europe & Central Asia','Upper middle income',218.86,115.17,41.61,274.12,320.61,35.21,10.64
+'Europe & Central Asia','Upper middle income',134.11,102.14,39.96,183.70,234.86,27.35,10.29
+'Latin America & Caribbean','Lower middle income',59.96,40.72,6.10,16.17,56.10,7.65,5.85
+'Latin America & Caribbean','Upper middle income',142.85,70.22,18.90,141.45,178.26,20.59,5.25
+'East Asia & Pacific','High income: nonOECD',347.00,586.66,52.48,257.17,277.06,36.49,5.40
+'East Asia & Pacific','High income: nonOECD',290.90,532.87,59.38,431.50,460.80,48.83,5.01
+'Sub-Saharan Africa','Upper middle income',92.22,160.46,4.43,44.27,98.95,7.19,5.00
+'Europe & Central Asia','High income: OECD',293.93,404.34,173.10,520.87,566.11,61.99,13.86
+'Europe & Central Asia','High income: OECD',230.19,483.38,172.71,519.21,562.96,58.72,15.91
+'Latin America & Caribbean','High income: OECD',197.33,128.90,10.66,97.85,147.29,29.77,8.12
+'Latin America & Caribbean','High income: OECD',196.55,160.51,10.28,126.91,184.35,40.57,8.13
+'East Asia & Pacific','Upper middle income',66.76,51.98,41.75,43.81,57.72,19.26,72.56
+'East Asia & Pacific','Upper middle income',42.84,35.90,34.84,14.71,23.68,9.23,63.99
+'Latin America & Caribbean','Upper middle income',61.71,86.79,11.98,42.70,57.28,18.01,5.26
+'Latin America & Caribbean','Upper middle income',157.39,149.47,78.15,137.65,179.84,20.98,8.19
+'Europe & Central Asia','High income: nonOECD',298.09,353.36,134.95,419.20,531.64,47.00,18.96
+'Europe & Central Asia','High income: nonOECD',335.08,293.43,131.30,343.93,461.67,39.24,19.76
+'Europe & Central Asia','High income: OECD',325.62,201.24,162.84,386.75,431.62,34.39,19.45
+'Europe & Central Asia','High income: OECD',324.31,168.79,165.67,427.40,486.11,39.13,15.66
+'Europe & Central Asia','High income: OECD',336.35,223.27,180.26,517.27,572.41,72.71,15.85
+'Europe & Central Asia','High income: OECD',313.25,278.50,180.48,493.02,543.27,69.51,19.04
+'Europe & Central Asia','High income: OECD',468.12,265.15,171.85,390.01,480.08,35.96,11.70
+'Europe & Central Asia','High income: OECD',429.19,338.96,167.68,362.52,451.81,33.88,11.53
+'Middle East & North Africa','Upper middle income',176.91,70.25,4.77,75.87,114.09,35.60,22.04
+'Middle East & North Africa','Lower middle income',76.12,41.12,9.87,27.99,38.78,29.10,33.59
+'Europe & Central Asia','High income: OECD',580.75,166.31,131.92,466.61,579.70,37.73,14.81
+'Europe & Central Asia','High income: OECD',506.47,114.02,131.89,480.72,592.86,40.96,13.98
+'Europe & Central Asia','High income: OECD',334.96,206.53,129.14,412.40,476.10,10.92,7.24
+'Europe & Central Asia','High income: OECD',293.77,212.58,126.05,366.82,477.03,11.26,5.00
+'Europe & Central Asia','High income: OECD',440.58,278.37,23.09,538.40,612.00,41.99,5.22
+'Europe & Central Asia','High income: OECD',402.96,341.20,23.30,460.24,530.93,35.33,4.99
+'Europe & Central Asia','High income: OECD',476.84,112.86,191.08,480.97,580.01,35.96,14.33
+'Europe & Central Asia','High income: OECD',478.93,169.22,183.13,476.44,574.58,36.09,15.61
+'Europe & Central Asia','High income: OECD',352.46,232.57,172.25,456.46,518.28,76.90,13.70
+'Europe & Central Asia','High income: OECD',347.34,309.81,159.27,456.95,517.21,80.27,14.91
+'Europe & Central Asia','Lower middle income',67.37,78.60,27.31,129.63,155.04,36.25,12.00
+'Sub-Saharan Africa','Lower middle income',28.75,23.84,24.15,11.09,16.57,6.22,18.37
+'Europe & Central Asia','High income: OECD',240.55,329.94,88.63,461.03,579.99,56.11,16.89
+'Europe & Central Asia','High income: OECD',218.42,350.49,89.06,387.53,496.79,46.93,18.90
+'Latin America & Caribbean','Lower middle income',64.51,63.64,16.03,26.29,46.90,34.15,10.63
+'Latin America & Caribbean','Lower middle income',59.89,65.54,14.80,36.97,67.88,60.59,11.85
+'Europe & Central Asia','High income: nonOECD',229.17,156.23,50.87,311.72,349.49,53.92,16.92
+'Europe & Central Asia','High income: nonOECD',263.25,144.19,51.83,343.01,379.82,57.20,14.36
+'Europe & Central Asia','Upper middle income',224.74,146.92,203.77,286.38,329.04,17.50,19.84
+'Europe & Central Asia','Upper middle income',242.19,128.79,214.51,298.40,345.30,17.30,16.24
+'East Asia & Pacific','Lower middle income',53.40,78.29,25.58,37.06,65.98,32.48,13.80
+'East Asia & Pacific','Lower middle income',37.89,61.54,20.50,22.33,39.86,23.17,13.93
+'South Asia','Lower middle income',19.19,7.67,115.87,9.05,13.37,4.00,31.46
+'Europe & Central Asia','High income: OECD',488.36,314.46,136.59,424.50,500.05,23.30,8.67
+'Europe & Central Asia','High income: OECD',550.73,411.54,137.31,404.82,476.12,20.52,7.04
+'Europe & Central Asia','High income: OECD',208.94,502.13,12.64,631.68,724.16,16.49,5.68
+'Europe & Central Asia','High income: OECD',358.44,465.34,12.48,643.74,745.46,18.43,5.83
+'Middle East & North Africa','High income: OECD',141.98,316.30,79.69,238.38,292.42,115.21,26.88
+'Middle East & North Africa','High income: OECD',171.83,330.68,83.74,272.47,321.78,132.73,26.18
+'Europe & Central Asia','High income: OECD',403.38,232.67,161.84,591.52,666.98,80.15,21.74
+'Latin America & Caribbean','Upper middle income',70.61,170.95,201.28,143.13,180.98,22.10,11.96
+'Latin America & Caribbean','Upper middle income',63.17,203.13,191.04,115.15,146.96,18.55,10.17
+'Middle East & North Africa','Upper middle income',155.42,130.65,8.56,75.41,113.00,80.45,29.53
+'Middle East & North Africa','Upper middle income',102.21,176.31,7.94,122.32,167.93,143.02,28.77
+'East Asia & Pacific','High income: OECD',212.34,347.65,85.03,440.53,587.16,233.46,22.79
+'East Asia & Pacific','High income: OECD',177.44,335.51,89.05,454.31,589.84,223.35,21.81
+'Europe & Central Asia','Upper middle income',41.35,210.76,3.52,189.15,219.26,37.27,13.39
+'Europe & Central Asia','Upper middle income',39.61,158.64,3.33,92.77,115.70,19.29,13.17
+'Sub-Saharan Africa','Low income',16.71,8.69,10.95,9.23,17.96,10.06,5.08
+'Sub-Saharan Africa','Low income',25.66,13.61,10.67,13.65,23.85,15.59,5.84
+'Middle East & North Africa','High income: nonOECD',434.88,1028.21,37.08,439.46,527.56,218.46,50.39
+'Middle East & North Africa','High income: nonOECD',222.09,914.94,32.51,405.71,501.18,195.83,49.41
+'South Asia','Lower middle income',67.44,29.87,173.89,19.86,48.44,8.76,8.61
+'Europe & Central Asia','High income: nonOECD',229.34,100.52,121.74,426.22,466.58,20.03,7.88
+'Europe & Central Asia','High income: nonOECD',298.32,89.43,125.77,514.73,559.51,22.39,10.15
+'Europe & Central Asia','High income: nonOECD',269.78,149.63,102.72,322.73,376.52,13.06,5.01
+'Europe & Central Asia','High income: nonOECD',341.82,133.48,107.58,284.35,318.71,10.28,9.14
+'Middle East & North Africa','Lower middle income',116.90,17.79,13.07,61.84,86.37,47.25,19.97
+'Middle East & North Africa','Lower middle income',93.14,12.77,12.90,48.60,66.23,34.93,20.13
+'Europe & Central Asia','Lower middle income',69.90,19.37,37.92,113.49,156.34,43.38,13.79
+'Europe & Central Asia','Lower middle income',43.11,20.02,37.62,81.49,109.76,30.98,16.84
+'Latin America & Caribbean','Upper middle income',124.34,284.35,18.93,186.49,268.74,81.95,16.64
+'Latin America & Caribbean','Upper middle income',113.35,253.43,18.11,134.29,202.37,60.56,16.83
+'Europe & Central Asia','Upper middle income',127.00,58.98,54.19,150.55,168.02,24.84,16.85
+'Europe & Central Asia','Upper middle income',88.03,55.97,51.64,123.75,137.68,21.13,19.14
+'Middle East & North Africa','High income: nonOECD',91.62,168.38,695.93,522.90,633.56,114.88,22.76
+'East Asia & Pacific','Low income',2.07,7.97,5.08,5.41,7.18,10.01,21.77
+'East Asia & Pacific','Low income',20.98,6.71,4.43,4.15,5.72,8.83,21.72
+'Europe & Central Asia','Upper middle income',264.48,91.92,56.21,260.73,297.57,24.20,15.89
+'Europe & Central Asia','Upper middle income',160.76,84.44,53.24,189.76,211.46,18.02,18.57
+'East Asia & Pacific','Upper middle income',193.51,298.41,26.30,251.04,284.09,85.20,13.08
+'East Asia & Pacific','Upper middle income',163.56,319.17,43.65,324.56,361.01,71.00,12.94
+'Sub-Saharan Africa','Upper middle income',105.55,137.22,5.35,47.50,106.78,5.52,4.44
+'Latin America & Caribbean','Lower middle income',57.71,37.44,16.96,21.86,56.84,14.87,5.34
+'Europe & Central Asia','High income: OECD',389.87,238.63,330.63,465.56,526.66,63.71,18.54
+'Europe & Central Asia','High income: OECD',397.73,251.04,323.10,434.58,496.80,60.40,21.72
+'Europe & Central Asia','High income: OECD',502.67,337.20,28.67,438.84,545.74,27.17,5.56
+'Europe & Central Asia','High income: OECD',599.68,239.50,28.87,472.16,583.98,30.53,4.40
+'East Asia & Pacific','High income: OECD',394.24,524.74,35.14,598.67,711.55,33.02,5.58
+'East Asia & Pacific','High income: OECD',378.81,555.64,34.79,602.20,713.65,31.67,5.13
+'South Asia','Lower middle income',35.01,12.96,32.85,13.42,17.52,11.63,38.10
+'South Asia','Lower middle income',40.73,7.45,32.43,8.89,12.88,7.91,37.28
+'Latin America & Caribbean','Upper middle income',150.89,151.97,20.07,102.15,137.53,31.95,5.30
+'Latin America & Caribbean','Upper middle income',114.38,118.83,15.88,77.53,107.52,29.05,5.00
+'Latin America & Caribbean','Upper middle income',116.94,42.95,6.55,37.66,63.61,21.95,9.80
+'Latin America & Caribbean','Upper middle income',79.75,32.64,6.10,32.69,52.25,18.34,10.16
+'Europe & Central Asia','High income: OECD',246.57,103.39,129.88,451.49,532.12,50.03,15.78
+'Europe & Central Asia','High income: OECD',144.63,103.33,121.99,323.31,385.77,38.59,18.98
+'Europe & Central Asia','High income: OECD',404.04,130.51,23.79,441.08,578.31,280.74,12.53
+'Europe & Central Asia','Upper middle income',105.20,72.18,44.29,155.48,180.12,36.90,20.75
+'Europe & Central Asia','Upper middle income',149.55,63.51,45.88,201.49,234.52,45.96,17.25
+'Europe & Central Asia','High income: nonOECD',94.51,183.49,5.01,178.62,213.04,35.54,8.75
+'Middle East & North Africa','High income: nonOECD',433.25,516.56,10.29,133.35,184.97,20.08,62.20
+'East Asia & Pacific','High income: nonOECD',326.59,174.91,475.63,117.23,148.66,223.49,19.82
+'East Asia & Pacific','High income: nonOECD',310.14,164.79,462.66,108.52,144.30,190.33,20.85
+'Latin America & Caribbean','Lower middle income',87.27,71.96,32.92,37.09,74.76,65.29,5.05
+'Latin America & Caribbean','Lower middle income',83.94,69.15,34.50,49.38,96.85,82.63,5.24
+'Europe & Central Asia','Upper middle income',146.62,137.35,43.70,199.10,239.27,46.10,18.57
+'Europe & Central Asia','Upper middle income',176.78,63.63,49.51,214.71,238.19,39.69,15.89
+'Europe & Central Asia','High income: OECD',262.45,106.46,88.35,307.37,363.69,45.58,15.00
+'Europe & Central Asia','High income: OECD',183.70,118.74,89.22,242.00,280.24,34.51,18.22
+'Europe & Central Asia','High income: OECD',367.91,325.42,189.86,479.99,518.33,26.94,17.64
+'Europe & Central Asia','High income: OECD',533.05,274.33,192.74,518.23,566.51,29.70,15.23
+'Europe & Central Asia','High income: OECD',380.13,330.12,128.41,462.26,519.73,8.42,5.99
+'Europe & Central Asia','High income: OECD',340.87,427.70,94.46,460.04,512.55,10.87,5.85
+'Middle East & North Africa','Lower middle income',94.04,83.68,37.73,36.25,73.49,21.50,25.99
+'Middle East & North Africa','Lower middle income',158.58,66.43,26.98,15.08,41.96,15.51,26.77
+'Middle East & North Africa','Upper middle income',133.09,45.40,11.86,86.82,124.55,67.66,19.04
+'Europe & Central Asia','Upper middle income',100.86,39.02,44.57,84.71,123.66,24.12,18.49
+'Europe & Central Asia','Upper middle income',124.98,28.11,46.87,103.70,154.85,30.67,17.44
+'Europe & Central Asia','Lower middle income',68.91,101.00,28.08,147.57,172.75,46.75,12.69
+'Europe & Central Asia','Lower middle income',54.64,100.96,28.05,117.58,138.97,38.66,15.49
+'North America','High income: OECD',397.77,1145.64,66.57,423.12,782.48,36.98,13.38
+'North America','High income: OECD',457.99,1265.34,66.76,462.13,816.17,37.50,13.73
